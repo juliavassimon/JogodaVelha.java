@@ -1,0 +1,22 @@
+package jogoDaVelha;
+
+public class campos {
+
+private char  simb; //controle do tipo de simbolo que vai ser colocado
+public campos () {/*construtor*/
+	this.simb= ' ';
+}
+public char getSimb() { //obter o simbolo ou vazio
+	return this.simb;
+}
+public void setsimb(char simb) {
+	if (this.simb==' ') {
+		this.simb = simb;
+	}
+	else {
+		System.out.print("Campo já usado");
+	}
+	
+}
+
+}
